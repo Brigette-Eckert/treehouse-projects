@@ -1,0 +1,1 @@
+Projects built while learning to code on treehouse. Projects are broken down by subject and folders represent what class they were taught in. Disclaimer: some projects may still be works in progress. 
