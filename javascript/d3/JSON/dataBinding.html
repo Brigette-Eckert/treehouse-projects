@@ -22,7 +22,7 @@
                       .enter()
                      .append('circle');
 
-        dots.attr('r', function(d) {return d.TMAX});
+        dots.attr('r', function(d, i) {return d.TMAX});
 
         dots.attr('r', function(d) {return Math.abs(d.TMAX)});
 
