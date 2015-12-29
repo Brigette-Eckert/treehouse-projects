@@ -1,0 +1,10 @@
+@import "_reset.scss";
+//resets browser settings- similar to normalzie css 
+//Defining
+@import "_vars.scss";
+@import "_mixins.scss";
+//Global Styles
+@import "_globals.scss";
+//Specific Pages
+@import "pages/_about-us.scss";
+//starting with file name with _  means it won't create css file etc

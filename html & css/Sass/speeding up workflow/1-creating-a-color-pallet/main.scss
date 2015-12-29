@@ -1,0 +1,13 @@
+$background: desaturate(#187, 30%);
+$text: complement($background);
+// $text: mix(#187, #369);
+$highlighted-text: lighten($text, 30%);
+body {
+	background: $background;
+	font-family: sans-serif;
+	color: $text;
+}
+
+a {
+	color: $highlighted-text;
+}
