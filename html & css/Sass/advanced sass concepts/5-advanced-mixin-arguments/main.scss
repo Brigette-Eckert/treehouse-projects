@@ -1,0 +1,24 @@
+@mixin box($size, $color: black, $display: block){
+	width: $size;
+	height: $size;
+	background: $color;
+	display: $display;
+	//display block is default for this mixin and black is default color
+}
+	
+.box {
+	@include box($color: purple, $size: 20px);
+	//can ignore order if define varibles like this rather than box(20px, purple) & allows to leave out certain options
+}
+
+@mixin band($name, $members...) {
+	@each $member in $members {
+	.#{$name} .#{$member} {
+		background: url("images/#{$name}/#{$member}.jpg")
+		}
+	}	
+}
+
+//can remove ... to use spaces to make list rather than using commas
+@include band(radiohead, thom, johnny, colin, phil);
+@include band(nin, trent);

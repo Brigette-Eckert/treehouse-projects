@@ -1,0 +1,23 @@
+div {
+  padding: 5px; }
+  div .big {
+    content: "huge!"; }
+
+.blue {
+  color: blue;
+  background-image: url("images/color.jpg"); }
+
+.red {
+  color: red;
+  background-image: url("images/color.jpg");
+  border: 1px solid black; }
+
+.green {
+  color: green;
+  background-image: url("images/color.jpg"); }
+
+.gray {
+  color: gray;
+  background-image: url("images/color.jpg"); }
+
+/*# sourceMappingURL=main.css.map */
