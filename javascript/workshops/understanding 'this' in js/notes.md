@@ -6,4 +6,4 @@
 
 * Within an object constructior 
 
-* In a functon invoked with .call, .apply or bind 
+* In a functon invoked with .call, .apply or bind (not covered in this workshop)
