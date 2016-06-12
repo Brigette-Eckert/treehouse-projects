@@ -23,6 +23,6 @@ from courses import urls as course_urls
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.hello_world),
-    url(r'^courses/', include(course_urls)),
+    url(r'^courses/', include(course_urls, namespace='courses')),
 ]
 urlpatterns += staticfiles_urlpatterns()
