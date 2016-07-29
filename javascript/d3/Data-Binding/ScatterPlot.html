@@ -30,7 +30,6 @@
                     .append('circle');
 
         dots.attr('r', function(d, i) {
-          debugger;
           return Math.abs(d.TMAX) / 10})
           .attr('cx', function(d) {return Math.max(0 + padding, Math.random() * width - padding)})
           .attr('cy', function(d) {return Math.max(0 + padding, Math.random() * height - padding)})
