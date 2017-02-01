@@ -1,4 +1,8 @@
 def does_something(arg):
+    """ Takes one argument and does something based on type
+        If arg is a string, returns string three times
+        If arg is a init or float returns arg + 10
+    """
     if isinstance(arg, (int, float)):
         return arg + 10
     elif isinstance(arg, str):
