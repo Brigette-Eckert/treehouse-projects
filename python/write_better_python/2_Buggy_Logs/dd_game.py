@@ -1,4 +1,11 @@
+import logging
 import random
+
+# logging.info("you won't see this")
+# logging.warn("Oh noes!")
+
+# level is level of error want to start logging at ie error, critical, warning etc
+logging.basicConfig(filename='game.log', level=logging.DEBUG)
 
 player = {'location': None, 'path': []}
 cells = [(0, 0), (0, 1), (0, 2),
@@ -64,6 +71,8 @@ def draw_map():
 
 
 monster, door, player['location'] = get_locations()
+
+logging.info('monster: {}; door: {}; player: {}'.format(monster, door, player['location']))
 
 while True:
     moves = get_moves(player['location'])
