@@ -22,6 +22,7 @@ class DieTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             dice.Die(1)
 
+
 class RollTests(unittest.TestCase):
     def setUp(self):
         self.hand1 = dice.Roll('1d2')
