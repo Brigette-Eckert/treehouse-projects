@@ -47,8 +47,8 @@ def delete_entry(entry):
     """Delete an entry."""
 
 menu = OrderedDict([
-    ('a', 'add_entry'),
-    ('v', 'view_entries')
+    ('a', add_entry()),
+    ('v', view_entries())
 ])
 
 if __name__ == '__main__':
