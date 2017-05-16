@@ -1,4 +1,9 @@
 node_modules
-.sass-cache
 .idea
+.sass-cache 
 venv
+**/node_modules
+**/.sass-cache
+**/.idea
+**/venv
+**/__pycache__
